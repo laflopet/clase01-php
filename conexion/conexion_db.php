@@ -1,4 +1,3 @@
-// Creemos una conexion a una base de datos mysql
 <?php
 $host = "localhost";
 $usuario = "root";
@@ -13,4 +12,3 @@ $conn = new mysqli($host, $usuario, $password, $nombre_bd, $port);
 if ($conn->connect_error) {
     die("Error de conexion: " . $conn->connect_error);
 }
-echo "Conexion exitosa";
